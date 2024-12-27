@@ -3,8 +3,8 @@
 
 title: Changho Choi
 description: >- # this means to ignore newlines until "baseurl:"
-  Changho Choi personal page.
-baseurl: "/home" # the subpath of the site
+  Changho Choi's Personal Site.
+baseurl: "/bay" # the subpath of the site
 url: "https://usingcolor.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
@@ -17,14 +17,14 @@ header:
     - name: Blog
 
 footer:
-  show_powered_by: true
+  show_powered_by: false
   contact:
     - type: email
       name: Email
       value: changho9808@gmail.com
-    - type: wechat
-      value: YourWeChatUsername
-      link: "#"
+    # - type: wechat
+    #   value: YourWeChatUsername
+    #   link: "#"
   follow:
     # - type: twitter
     #   name: Twitter
