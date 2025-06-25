@@ -4,5 +4,8 @@ title: Blog
 slug: /blog
 ---
 
-This is an example of a "Blog" page, displaying a list of posts.
+## Blog
+
+Coming soon! I'll be sharing technical insights, tutorials, and experiences from my journey in AI research and development.
+
 <br />

@@ -3,7 +3,8 @@
 
 title: Changho Choi
 description: >- # this means to ignore newlines until "baseurl:"
-  Changho Choi's Personal Site.
+  AI Researcher & Engineer specializing in Computer Vision and Machine Learning. 
+  Korea University Computer Science undergraduate preparing for Ph.D. in AI.
 baseurl: "/" # the subpath of the site
 url: "https://usingcolor.github.io" # the base hostname & protocol for the site
 og_image: /assets/img/profile-pic.jpg
@@ -14,7 +15,10 @@ header:
     - name: Home
       slug: /
     - name: Work
+    - name: Education
     - name: Blog
+    - name: CV
+      slug: /assets/CV_Changho_Choi_2503.pdf
 
 footer:
   show_powered_by: false

@@ -1,162 +1,45 @@
-# Bay
+# Changho Choi's Personal Website
 
-[![Version](https://img.shields.io/gem/v/bay_jekyll_theme)](https://rubygems.org/gems/bay_jekyll_theme)
-[![Downloads](https://img.shields.io/gem/dt/bay_jekyll_theme)](https://rubygems.org/gems/bay_jekyll_theme)
+Welcome to the repository for my personal website hosted at [usingcolor.github.io](https://usingcolor.github.io).
 
-Bay is a simple theme for Jekyll. [[view live]](https://eliottvincent.github.io/bay)
+## About
 
-Inspired by [dangrover.com](http://dangrover.com/). Current theme used at [eliottvincent.com](http://eliottvincent.com/).
+This is my personal portfolio website where I showcase my projects, share technical blog posts, and provide information about my professional background.
 
-![](/screenshot.png)
+## Features
 
+- **Home Page**: Introduction and overview of my skills and expertise
+- **Work/Portfolio**: Showcase of my projects and professional experience
+- **Blog**: Technical articles and insights from my development journey
+- **CV**: Downloadable resume/CV
 
-## Table of contents
-1. [Installation](#installation)
-2. Website sections
-    1. [Header](#header)
-    2. [Footer](#footer)
-    3. [Home page](#home-page)
-    4. [Blog page](#blog-page)
-5. [Development instructions](#development)
+## Technologies Used
 
+- Jekyll static site generator
+- Bay Jekyll theme (customized)
+- GitHub Pages for hosting
+- Markdown for content management
 
-### Installation
+## Local Development
 
+To run this website locally:
 
-The easiest solution is to [fork this repo](https://github.com/eliottvincent/bay/fork).
-If you want to start from a clean website, follow the steps below:
-
-Create a new Jekyll website:
-```
-jekyll new mysite
-```
-
-Open `Gemfile` and replace the line:
-```
-gem "minima"
-```
-with:
-```
-gem "bay_jekyll_theme"
-```
-
-Open `_config.yml` and replace the line:
-```
-theme: minima
-```
-with:
-```
-theme: bay_jekyll_theme
-```
-or, for GitHub Pages:
-```
-remote_theme: eliottvincent/bay
-```
-
-Finally, install the dependencies:
-```
+```bash
+# Install dependencies
 bundle install
-```
 
-and build the website!
-```
-jekyll serve
-```
-
-
-The website will look somewhat empty at first. That's normal. Follow the next instructions to complete the header and footer components, and the home and blog pages.
-
-### Header
-Open the `_config.yml` file and add the following:
-```yml
-header:
-  pages:
-    - name: Home
-      slug: /     # <-- index.md
-    - name: Blog  # <-- blog.md
-    - name: Whatever  # <-- whatever.md
-```
-Re-run `jekyll serve` to see the header updated.
-
-### Footer
-Open the `_config.yml` file and add the following:
-```yml
-footer:
-  show_powered_by: true
-  contact:
-    - type: email
-      name: Email
-      value: yourmail@domain.com
-    - type: wechat
-      value: YourWeChatUsername
-      link: "#"
-  follow:
-    - type: twitter
-      name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - type: facebook
-      name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - type: linkedin
-      name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - type: github
-      name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - type: dribbble
-      name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - type: rss
-      name: RSS
-      link: /feed.xml
-```
-Re-run `jekyll serve` to see the footer updated.
-
-### Home page
-Create (or edit) the `index.markdown` file and add the following:
-```yml
----
-layout: home
-profile_picture:
-  src: /assets/img/profile-pic.jpg
-  alt: website picture
----
-
-<p>
-  Welcome to mysite!
-</p>
-```
-
-### Blog page
-Create `blog.markdown` file and add the following:
-```yml
----
-layout: blog
-title: Blog
-slug: /blog
----
-
-This is an example of a "Blog" page, displaying a list of posts.
-<br />
-```
-
-
-Your website is ready!
-
-
-### Development
-
-#### Run development instance (with hot-reload)
-```sh
+# Serve the website locally
 bundle exec jekyll serve
+
+# Visit http://localhost:4000
 ```
 
-#### Build and publish the gem
-```sh
-gem build bay_jekyll_theme.gemspec
-```
+## Contact
 
-```sh
-gem push bay_jekyll_theme-1.x.x.gem
-```
+- Email: [changho9808@gmail.com](mailto:changho9808@gmail.com)
+- LinkedIn: [Changho Choi](https://linkedin.com/in/changho-387a721a5)
+- GitHub: [@usingcolor](https://github.com/usingcolor)
+
+## License
+
+The content of this website is © Changho Choi. The underlying theme is based on Bay Jekyll theme by Eliot Vincent.
