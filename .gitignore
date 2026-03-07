@@ -1,0 +1,17 @@
+# Jekyll/Ruby ignored files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+Gemfile.lock
+
+# macOS
+.DS_Store
+
+# Temporary directory from _config.yml
+_temp/
+
+# Personal files to prevent from being uploaded to GitHub Pages
+CV_Changho_Choi/
