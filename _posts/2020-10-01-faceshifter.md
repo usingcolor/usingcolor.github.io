@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "FaceShifter"
+title: "FaceShifter Pytorch Implementation"
 categories: ['projects']
-image: /placeholder.jpeg
+image: /faceshifter.jpg
 date: 2020-10-01
 code: "https://github.com/mindslab-ai/faceshifter"
 ---
