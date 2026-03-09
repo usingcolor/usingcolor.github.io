@@ -4,7 +4,7 @@ title: "LatentSwap"
 categories: ['research']
 image: /latentswap.png
 authors: "Changho Choi, Minho Kim, Junhyeok Lee, Hyoung-Kyu Song, Younggeun Kim, Seungryong Kim"
-venue: "arxiv preprint"
+venue: "Arxiv preprint"
 arxiv: "https://arxiv.org/abs/2402.18351"
 code: "https://github.com/usingcolor/LatentSwap"
 ---
