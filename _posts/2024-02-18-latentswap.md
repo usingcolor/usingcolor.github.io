@@ -2,7 +2,7 @@
 layout: post
 title: "LatentSwap"
 categories: ['research']
-image: /placeholder.jpeg
+image: /latentswap.png
 authors: "Changho Choi, Minho Kim, Junhyeok Lee, Hyoung-Kyu Song, Younggeun Kim, Seungryong Kim"
 venue: "arxiv preprint"
 arxiv: "https://arxiv.org/abs/2402.18351"
