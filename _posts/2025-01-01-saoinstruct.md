@@ -4,7 +4,7 @@ title: "SAOInstruct"
 categories: ['research']
 image: /sao-instruct.png
 authors: "Michael Ungersböck, Florian Grötschla, Luca A. Lanzendörfer, June Young Yi, Changho Choi, Roger Wattenhofer"
-venue: "NeurIPS 2025"
+venue: "NeurIPS"
 arxiv: "https://arxiv.org/abs/2510.22795"
 website: "https://eth-disco.github.io/sao-instruct/"
 code: "https://github.com/eth-disco/sao-instruct"
