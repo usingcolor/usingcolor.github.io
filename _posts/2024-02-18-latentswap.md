@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LatentSwap"
+title: "LatentSwap: An Efficient Latent Code Mapping Framework for Face Swapping"
 categories: ['research']
 image: /latentswap.png
 authors: "Changho Choi, Minho Kim, Junhyeok Lee, Hyoung-Kyu Song, Younggeun Kim, Seungryong Kim"

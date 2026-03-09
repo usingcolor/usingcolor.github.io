@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SAOInstruct"
+title: "SAOInstruct: Free-form Audio Editing using Natural Language Instructions"
 categories: ['research']
 image: /sao-instruct.png
 authors: "Michael Ungersböck, Florian Grötschla, Luca A. Lanzendörfer, June Young Yi, Changho Choi, Roger Wattenhofer"
