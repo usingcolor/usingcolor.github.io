@@ -7,4 +7,4 @@ date_start: 2025-03-01
 date_end: 2025-12-31
 course: "Undergraduate Researcher"
 ---
-Conducted research on causal sequential visual encoders under Prof. Jinkyu Kim. Proposed MambaEye, a size-agnostic visual encoder that treats image recognition as a causal, sequential process, effectively mimicking human saccadic vision.
+Conducted research on causal sequential visual encoders under [Prof. Jinkyu Kim](https://visionai.korea.ac.kr/team/). Proposed MambaEye, a size-agnostic visual encoder that treats image recognition as a causal, sequential process, effectively mimicking human saccadic vision.
